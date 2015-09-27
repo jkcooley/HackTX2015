@@ -16,11 +16,8 @@ public class ChooseYourOwnAdventure
 	{		
 		character();	
 		goblin();
-		System.out.println("Now, as I was saying... LOOK OUT!!!");
 		orcs();
-		System.out.println("We really must talk about your quest, it is of the utmost - AAAH, ORCS!");
-		skeletalDragon();	
-		System.out.println(charName.toUpperCase() + ", THIS IS GETTING RIDICULOUS!!!");
+		skeletalDragon();
 	}
 	
 	//a method to create a character based on input from the user
